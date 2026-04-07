@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0; /* softer white */
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Section spacing */
+section {
+  padding: 80px 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #f8fafc;
+}
+
+/* Paragraph */
+p {
+  color: #cbd5f5;
+}
+
+/* Scrollbar (optional but premium look 🔥) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7c3aed;
+  border-radius: 10px;
+}
+
+/* Text selection */
+::selection {
+  background: #7c3aed;
+  color: white;
+}
